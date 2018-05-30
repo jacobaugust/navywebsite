@@ -1,0 +1,125 @@
+p.type {
+	font-family: Georgia, Times, sans-serif;
+	font-size: 1em;
+	color: yellow;
+}
+img.centeredpic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1.standout {
+	font-size: 3em;
+	font-weight: 600;
+	color: #FF0505;
+	line-height: 2em;
+	font-family: Impact, sans-serif;
+}
+h2 {
+	font-size: 2em;
+	font-weight: 800;
+	color: #FF0505;
+	line-height: 2em;
+	font-family: Arial, sans-serif;
+}
+p.second {
+	font-family: "Courier New", Courier, sans-serif;
+	color: yellow;
+}
+body{
+	background-color: royalblue;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #FF0505;
+	line-height: 2em;
+	font-family: Times, sans-serif;
+}
+p.italic {
+	font-style: italic;
+}
+.spacing {
+	letter-spacing: .5em;
+}
+p.readable {
+	line-height: 3em;
+}
+.center {
+	text-align: center;
+	
+}
+.dates {
+	text-align: right;
+}
+p {
+	text-indent: 5em;
+}
+.margin {
+	margin: 2em;
+}
+.doubleborder {
+	border: 3px double #FFFB05;
+}
+.regularborder {
+	border: 1px solid black;
+}
+.dashedborder {
+	border-top: 6px dashed black;
+	border-bottom: 6px dashed black;
+}
+div#main {
+	margin: 1em 2em 1em 2em;
+}
+div#hardcore {
+	font-weight: 900;
+	border: 3px ridge yellow;
+}
+th, td {
+	border: 3px double white;
+}
+th.toprow {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.middle {
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#navbar {
+	width: 100%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+div#navbar ul {
+  list-style-type: none;
+}
+div#navbar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: .75em; 
+}
+div#navbar ul li {
+  text-align: center;
+  display: inline;
+  width: 23%;
+  float: left;
+  margin-right: .5em;
+}
+li.changeBackground {
+	background-color: red;
+}
+li.changeBackground:hover {
+	background-color: lightblue;
+}
+li.changeBackground:active {
+	background-color: yellow;
+}
+}
